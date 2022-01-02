@@ -1,0 +1,84 @@
+.carousel-item{
+  background-color: transparent;
+  overflow: visible;
+  position: relative;
+}
+
+.carousel-item img{
+  box-shadow: 10px 10px 8px #000000;
+  opacity: 1;
+  height: 100%;
+  width: 70%;
+  border : 5px solid gray;
+}
+
+.carousel-indicators{
+  visibility: hidden;
+}
+
+.carousel-caption{
+  width: 60%;
+  margin-left: 7.5%;
+}
+
+.carousel-fade {
+    left: 0;
+    transform: translate3d(0, 0, 0);
+}
+
+.carousel-control-prev, .carousel-control-next{
+   
+  height: 3em;
+  width: 3em !important;
+  top: 50% !important;
+  margin-left: 20px;
+  margin-right: 20px;
+  background-color: black;
+  border-radius: 25%;
+  
+}
+
+.slide-2020 img{
+  box-shadow: 30px 30px 8px gold !important;
+  border : 5px solid rgb(212,175,55);
+}
+
+.slide-2019 img{
+  box-shadow: 30px 30px 8px silver !important;
+  border : 5px solid rgb(128,128,128);
+}
+
+.slide-2018 img{
+  box-shadow: 30px 30px 8px brown !important;
+  border : 5px solid rgb(169,113,66);
+}
+
+.gold-shadow{
+  box-shadow: 0px 0px 25px 22px rgba(212,175,55,0.65);
+-webkit-box-shadow: 0px 0px 25px 22px rgba(212,175,55,0.65);
+-moz-box-shadow: 0px 0px 25px 22px rgba(212,175,55,0.65);
+}
+
+.silver-shadow{
+  box-shadow: 0px 0px 25px 22px rgba(128,128,128,0.69);
+-webkit-box-shadow: 0px 0px 25px 22px rgba(128,128,128,0.69);
+-moz-box-shadow: 0px 0px 25px 22px rgba(128,128,128,0.69);
+}
+
+.bronze-shadow{
+  box-shadow: 0px 0px 25px 22px rgba(169,113,66,0.69);
+-webkit-box-shadow: 0px 0px 25px 22px rgba(169,113,66,0.69);
+-moz-box-shadow: 0px 0px 25px 22px rgba(169,113,66,0.69);
+}
+
+.white-shadow{
+  box-shadow: 0px 0px 25px 10px rgba(255,255,255,0.69);
+-webkit-box-shadow: 0px 0px 25px 10px rgba(255,255,255,0.69);
+-moz-box-shadow: 0px 0px 25px 10px rgba(255,255,255,0.69);
+}
+
+.black-shadow{
+  box-shadow: 0px 0px 25px 17px rgba(0,0,0,0.69);
+-webkit-box-shadow: 0px 0px 25px 17px rgba(0,0,0,0.69);
+-moz-box-shadow: 0px 0px 25px 17px rgba(0,0,0,0.69);
+}

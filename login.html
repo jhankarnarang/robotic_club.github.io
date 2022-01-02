@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Robotics Club VIT Bhopal</title>
+        <link rel="icon" href="img/favicon.png" type="image/png">
+        <link rel="stylesheet" href="css/index.css">
+        <link rel="stylesheet" href="css/login.css">
+        <link rel="stylesheet" href="project.css">
+        <link rel="stylesheet" href="navbar.css">
+        <link rel="stylesheet" href="css/carousel-home.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.3.0/animate.css"/>
+  
+
+
+    
+    <meta charset = "UTF-8">
+    <meta http-euiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width , initial-scale=1.0">
+
+</head>
+<style>
+    .container{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    flex-direction: column;
+}
+</style>
+
+<body>
+<div class="container">
+<h1>CONNECT TO US</h1>
+    <div id = "sawo-container" style="height:300px; width:300px"></div>
+    <script src="https://websdk.sawolabs.com/sawo.min.js"></script> 
+</div>   
+<script>
+    var config = {
+        // should be same as the id of the container created on 3rd step
+        containerID: "sawo-container",
+        // can be one of 'email' or 'phone_number_sms'
+        identifierType: "email",
+        // Add the API key copied from 2nd step
+        apiKey: 'a455ec0f-38e7-4c09-8563-5f66c4f37501',
+        // Add a callback here to handle the payload sent by sdk
+        onSuccess: (payload) => {
+            window.location="./thanks.html"
+        },
+    };
+    var sawo = new Sawo(config);
+    sawo.showForm();
+</script>
+
+</body>
+</html>
